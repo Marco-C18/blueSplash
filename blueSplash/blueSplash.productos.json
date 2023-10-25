@@ -1,0 +1,40 @@
+[{
+  "_id": 1,
+  "nombre_producto": "Jugo de Fresa",
+  "descripcion": "Jugo Helado y Fresco",
+  "precio": 12,
+  "categoria": "jugo",
+  "stock": "disponible"
+},
+{
+  "_id": 2,
+  "nombre_producto": "Jugo de Piña",
+  "descripcion": "Helado y Dulce",
+  "precio": 15,
+  "categoria": "jugo",
+  "stock": "disponible"
+},
+{
+  "_id": 3,
+  "nombre_producto": "Sandwich de pollo",
+  "descripcion": "Con el salado justo",
+  "precio": 5,
+  "categoria": "pan",
+  "stock": "disponible"
+},
+{
+  "_id": 4,
+  "nombre_producto": "Ensalada de Fruta",
+  "descripcion": "Variedad de Fruta con yogurt y miel",
+  "precio": 8,
+  "categoria": "postre",
+  "stock": "disponible"
+},
+{
+  "_id": 5,
+  "nombre_producto": "Pie de manzana",
+  "descripcion": "Suave y Agradable",
+  "precio": 5,
+  "categoria": "postre",
+  "stock": "no disponible"
+}]
