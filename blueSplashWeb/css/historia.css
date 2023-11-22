@@ -1,0 +1,248 @@
+.container {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.presentation {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  padding-top: 50px;
+}
+.presentation h1 {
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+.presentation p {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+}
+
+.motion {
+  width: 100%;
+  height: 400px;
+  background: url(../img/historia/jugos.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.history {
+  height: 100%;
+  text-align: center;
+  font-size: 13px;
+  padding-top: 50px;
+}
+.history h1 {
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+.history p {
+  padding-bottom: 50px;
+}
+.images {
+  padding-bottom: 50px;
+}
+img {
+  margin-left: 5%;
+}
+
+.reason {
+  height: 100%;
+}
+.mision {
+  padding-top: 30px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  color: black;
+}
+.mision svg {
+  color: black;
+  font-size: 30px;
+  margin-left: 92%;
+}
+.mision hr {
+  height: 3px;
+  margin-left: 0%;
+  margin-right: 60%;
+  background-color: rgb(0, 0, 0);
+}
+.mision h2 {
+  margin-left: 70%;
+  font-size: 30px;
+}
+.inside {
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
+}
+.inside p {
+  width: 300px;
+  padding-top: 120px;
+  margin-right: 100px;
+}
+
+.vision {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  color: black;
+}
+.vision svg {
+  color: black;
+  font-size: 30px;
+  margin-right: 85%;
+}
+.vision hr {
+  height: 3px;
+  margin-right: 0%;
+  margin-left: 60%;
+  background-color: rgb(0, 0, 0);
+}
+.vision h2 {
+  margin-right: 60%;
+  font-size: 30px;
+}
+.inside_ {
+  text-align: center;
+  display: flex;
+  padding-top: 10px;
+}
+.inside_ p {
+  width: 300px;
+  padding-top: 100px;
+  margin-left: 100px;
+}
+/* .inside_ img{
+    margin-left: 0;
+} */
+
+.last {
+  padding-top: 60px;
+  height: 300px;
+  background: url(../img/historia/fondo2.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+.lastInterior {
+  width: 60%;
+  background-color: whitesmoke;
+  margin: auto;
+  padding: 50px 30px;
+}
+
+@media (max-width: 990px) {
+  .vision {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .mision,
+  .vision {
+    width: 100%;
+  }
+  .mision h2 {
+    margin: auto;
+    font-size: 30px;
+  }
+  .vision h2 {
+    margin: auto;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .mision svg,
+  .vision svg {
+    display: none;
+  }
+  .mision hr,
+  .vision hr {
+    display: none;
+  }
+  .inside,
+  .inside_ {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inside p,
+  .inside_ p {
+    width: 300px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .inside img,
+  .inside_ img,
+  .inside_ img,
+  .inside_ img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+  }
+  .images img {
+    margin: auto;
+  }
+}
+
+@media (min-width: 485px) {
+  .presentation,
+  .history {
+    height: 100%;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 40px;
+    margin: auto;
+  }
+  .presentation p,
+  .history p {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 699px) {
+  .last {
+    padding: auto;
+    height: 600px;
+    background: url(../img/historia/fondo2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  .lastInterior {
+    width: 60%;
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 50px 30px;
+    margin-top: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    margin-top: 150px;
+  }
+  .container p {
+    font-size: 1.5rem;
+  }
+  .lastInterior p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1300px) {
+  .inside p {
+    margin-left: 5%;
+    margin-right: auto;
+  }
+  .inside_ p {
+    margin-right: 5%;
+    margin-left: auto;
+  }
+}

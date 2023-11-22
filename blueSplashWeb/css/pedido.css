@@ -1,0 +1,81 @@
+body {
+    background-color: #7fb3d5;
+  }
+  .hd1 .user i {
+    padding: 15px;
+  }
+  
+  #miPedido .pedido {
+    padding-top: 20px;
+    text-decoration: none;
+  }
+  .categoryMenu ul {
+    list-style-type: none;
+  }
+  .categoryMenu ul li a {
+    text-decoration: none;
+  }
+  
+  .row {
+    background-color: #7fb3d5;
+  }
+  
+  .row .card {
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+    margin-bottom: 10px;
+  
+    background-color: #7fb3d5;
+  }
+  .contBtns {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .contBtns input {
+    width: 40%;
+    margin-bottom: 15px;
+  }
+  .precioText {
+    font-weight: bold;
+  }
+  
+  .row form p {
+    text-align: start;
+    width: 90%;
+  }
+  
+  .contentP {
+    display: -webkit-box;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  
+  .imgContM {
+    height: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imgContM img {
+    height: auto;
+    width: 120%;
+  }
+  
+  .container-fluid{
+      background-color: #7fb3d5;
+      padding-top: 200px;
+  }
+  
+  /* .separador{
+      height: 200px;
+      background-color: #7fb3d5;
+  } */

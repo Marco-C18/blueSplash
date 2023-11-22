@@ -1,0 +1,584 @@
+.fraseInicio {
+  /* padding-top: 130px; */
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  position: relative;
+}
+.fraseInicio p {
+  text-align: center;
+}
+
+.fraseInicio .title {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+.fraseInicio .content {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+
+.btn {
+  background-color: whitesmoke;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  transition: ease 0.4s all;
+  color: black;
+}
+
+.btn:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.fraseImg {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.fraseImg img {
+  height: 200%;
+  position: relative;
+  width: 200vw;
+}
+
+.aboutUs .oferta {
+  text-align: center;
+  margin: 0;
+  padding: 20px 30px;
+  font-size: 1.5rem;
+  background-color: #004aad;
+}
+
+.aboutUs .ofertaVar {
+  color: black;
+  text-decoration: underline;
+  transition: ease 0.4s all;
+}
+.aboutUs .ofertaVar:hover {
+  color: #ffffff;
+}
+
+.aboutUs .aboutTitle {
+  text-align: center;
+  font-size: 3rem;
+  margin: 30px 20px;
+}
+.aboutUs .bodyBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutUs .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.aboutUs .box i {
+  background-color: #7fb3d5;
+  font-size: 2rem;
+  width: 20px;
+  height: 20px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.aboutUs .box .title {
+  font-size: 2rem;
+  margin: 20px 0px;
+}
+
+.aboutUs .box .content {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.vision {
+  background-color: #7fb3d5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.vision .img {
+  height: 50vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vision .img img {
+  height: 130%;
+}
+
+.vision .visionBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+}
+.vision .visionBody .title {
+  font-size: 3rem;
+  margin: 20px 0px;
+}
+.vision .visionBody .content {
+  font-size: 1.6rem;
+}
+.vision .visionBody .btn {
+  margin: 15px 0px;
+  background-color: initial;
+}
+.vision .visionBody .btn:hover {
+  background-color: black;
+}
+
+.planes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.planes .planesTitle {
+  text-align: center;
+  font-size: 3rem;
+  margin: 20px 20px;
+}
+
+.planes .bodyBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #7fb3d5;
+  padding: 40px 0px;
+}
+.planes .bodyBox .box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.planes .bodyBox .box .title {
+  font-size: 2rem;
+  margin: 20px 0px;
+}
+.planes .bodyBox .box .content {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.planes .bodyBox .box img {
+  height: 300px;
+  width: auto;
+  background-color: blue;
+}
+
+.planes .btn {
+  background-color: initial;
+}
+.planes .btn:hover {
+  background-color: black;
+}
+
+.planes .btnContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7fb3d5;
+  position: relative;
+  top: -10px;
+  padding-bottom: 30px;
+}
+
+.combi {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.combi .img {
+  height: 50vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.combi .img img {
+  height: 130%;
+}
+
+.combi .combiBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+}
+.combi .combiBody .title {
+  font-size: 3rem;
+  margin: 20px 0px;
+}
+.combi .combiBody .content {
+  font-size: 1.6rem;
+}
+.combi .combiBody .btn {
+  margin: 15px 0px;
+  background-color: initial;
+}
+.combi .combiBody .btn:hover {
+  background-color: black;
+}
+
+.modalidad .modalidadTitle {
+  text-align: center;
+  font-size: 3rem;
+  margin: 30px 20px;
+}
+.modalidad .bodyBox {
+  padding-top: 30px;
+  background-color: #7fb3d5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modalidad .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.modalidad .box i {
+  background-color: #7fb3d5;
+  font-size: 2rem;
+  width: 20px;
+  height: 20px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border-style: dotted;
+}
+
+.modalidad .box .title {
+  font-size: 2rem;
+  margin: 20px 0px;
+}
+
+.modalidad .box .content {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.redes .title {
+  font-size: 3rem;
+  margin: 20px 20px;
+}
+.redes .content {
+  font-size: 1.5rem;
+  margin: 0;
+  padding-bottom: 200px;
+}
+
+.redes .collage {
+  display: flex;
+  height: 50vw;
+  max-height: 300px;
+  width: 100%;
+  background-color: #004aad;
+  position: relative;
+  /* padding-bottom: 50px; */
+}
+
+.redes .collage .cont {
+  height: 220px;
+  width: 150px;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.redes .collage .cont:first-child {
+  background-image: url(../img/f7.jpg);
+  left: 15%;
+  transform: rotate(10deg);
+  top: -100px;
+}
+.redes .collage .cont:nth-child(2) {
+  background-image: url(../img/f8.jpeg);
+  left: 40%;
+  top: -150px;
+
+  transform: rotate(-10deg);
+}
+.redes .collage .cont:nth-child(3) {
+  background-image: url(../img/f9.jpg);
+  right: 15%;
+  transform: rotate(10deg);
+  top: -100px;
+}
+.redes .collage .cont:nth-child(4) {
+  background-image: url(../img/f10.jpg);
+  right: 40%;
+  transform: rotate(-10deg);
+  top: -10px;
+}
+.redes .collage .cont img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 800px) {
+  .aboutUs .box i {
+    font-size: 3rem;
+    padding: 40px;
+  }
+
+  .aboutUs .box .title {
+    font-size: 2.5rem;
+  }
+
+  .aboutUs .box .content {
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  .modalidad .box .title {
+    font-size: 3rem;
+  }
+
+  .modalidad .box .content {
+    font-size: 2rem;
+  }
+  .redes .collage .cont {
+    height: 270px;
+    width: 200px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .fraseInicio .title {
+    font-size: 3rem;
+  }
+  .fraseInicio .content {
+    font-size: 1.5rem;
+  }
+  .fraseImg {
+    height: 700px;
+  }
+
+  .aboutUs .aboutTitle {
+    font-size: 4rem;
+    padding: 40px 0px;
+  }
+
+  .aboutUs .bodyBox {
+    flex-direction: row;
+    align-items: start;
+    padding-bottom: 20px;
+    justify-content: space-around;
+  }
+  .aboutUs .box {
+    text-align: start;
+    width: 30%;
+    align-items: start;
+  }
+  .vision {
+    flex-direction: row;
+    padding-left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .vision .img {
+    height: 100vh;
+  }
+
+  .vision .visionBody {
+    height: 50%;
+    padding-left: 20px;
+    text-align: start;
+    align-items: start;
+  }
+  .vision .visionBody .title {
+    font-size: 3.8rem;
+    margin: 0;
+  }
+  .vision .visionBody .content {
+    font-size: 1.6rem;
+  }
+  .vision .visionBody .btn {
+    width: 40%;
+  }
+  .planes .planesTitle {
+    font-size: 4rem;
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+  .planes .bodyBox {
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    height: 70vh;
+  }
+  .planes .bodyBox .box img {
+    height: 360px;
+  }
+
+  .planes .bodyBox .box {
+    width: 30%;
+    text-align: start;
+    position: relative;
+  }
+  .planes .bodyBox .box:first-child {
+    top: -50px;
+  }
+  .planes .bodyBox .box:nth-child(2) {
+    top: -150px;
+  }
+  .planes .bodyBox .box:last-child {
+    top: -50px;
+  }
+  .planes .bodyBox .box .content {
+    font-size: 1.3rem;
+  }
+  .combi {
+    flex-direction: row;
+    padding-left: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .combi .img {
+    height: 100vh;
+  }
+
+  .combi .combiBody {
+    height: 50%;
+    padding-left: 20px;
+    text-align: start;
+    align-items: start;
+  }
+  .combi .combiBody .title {
+    font-size: 3.8rem;
+    margin: 0;
+  }
+  .combi .combiBody .content {
+    font-size: 1.6rem;
+  }
+  .combi .combiBody .btn {
+    width: 40%;
+  }
+  .modalidad .modalidadTitle {
+    font-size: 4rem;
+  }
+
+  .modalidad .bodyBox {
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    padding: 80px 0px;
+  }
+  .modalidad .box {
+    text-align: start;
+    width: 30%;
+    align-items: start;
+  }
+
+  .modalidad .box i {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  .modalidad .box .title {
+    font-size: 2.6rem;
+  }
+
+  .modalidad .box .content {
+    font-size: 1.2rem;
+  }
+  .redes .title {
+    padding-top: 50px;
+    font-size: 4rem;
+  }
+  .redes .collage {
+    justify-content: center;
+  }
+  .redes .collageVar {
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+  }
+  .redes .collage .cont {
+    height: 300px;
+    width: 220px;
+  }
+  .redes .collage .cont:first-child {
+    left: 28%;
+    top: -120px;
+  }
+  .redes .collage .cont:nth-child(2) {
+    left: 5%;
+    top: -120px;
+  }
+  .redes .collage .cont:nth-child(3) {
+    right: 5%;
+    top: -120px;
+  }
+  .redes .collage .cont:nth-child(4) {
+    right: 28%;
+    top: -120px;
+  }
+}

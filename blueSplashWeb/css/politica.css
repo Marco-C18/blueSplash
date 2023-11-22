@@ -1,0 +1,65 @@
+.cuerpo20 {
+  width: 50%;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 60px;
+}
+
+.titleH {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 50px;
+}
+.cuerpo20 h2 {
+  font-size: 16px;
+}
+.cuerpo20 p {
+  font-family: "Gill Sans", sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .cuerpo20 {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .titleH {
+    font-size: 30px;
+  }
+
+  .cuerpo20 h2 {
+    font-size: 12px;
+  }
+
+  .cuerpo20 p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  .cuerpo20 {
+    width: 70%;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+
+  .titleH {
+    font-size: 40px;
+  }
+
+  .cuerpo20 h2 {
+    font-size: 14px;
+  }
+
+  .cuerpo20 p {
+    font-size: 16px;
+  }
+}
